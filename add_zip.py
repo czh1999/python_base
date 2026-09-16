@@ -15,4 +15,6 @@ def main():
             new_file = file.with_suffix('.zip')
             file.rename(new_file)
             print(f"已将文件 {file.name} 修改为 {new_file.name}")  
+    if __name_ == "_main_":
+        main()
             
